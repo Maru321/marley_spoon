@@ -1,0 +1,32 @@
+.features-icons {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+
+  .features-icons-item {
+    .features-icons-icon {
+      height: 7rem;
+      i {
+        font-size: 4.5rem;
+      }
+    }
+    img {
+      border-radius: 50%;
+      height: 16rem;
+      width: 16rem;
+    }
+    h3 {
+      padding-top: 0.3rem;
+      padding-bottom: 1rem;
+    }
+    a {
+      border: none;
+    }
+    &:hover {
+      .features-icons-icon {
+        i {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}

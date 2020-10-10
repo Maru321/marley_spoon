@@ -1,0 +1,28 @@
+<section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex ml-auto rounded">
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">
+                <% if @recipe.tags %>
+                  <% @recipe.tags.each do |tag| %>
+                    <span class="label label-info label-tag"><%= tag.name %></span>
+                  <% end %>
+                <% end %>
+                <h1><%= @recipe.title %></h1>
+              </span>
+              <span class="section-heading-lower"><h3><%= @recipe&.chef&.name %></h3></span>
+            </h2>
+          </div>
+        </div>
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<%= @recipe.photo.image_url %>" alt="">
+        <div class="product-item-description d-flex mr-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0"><%= @recipe.description %></p>
+            <%= link_to "Go Back To Recipes", recipes_path %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

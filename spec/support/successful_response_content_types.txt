@@ -1,0 +1,625 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 10,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "page",
+        "type": "ContentType",
+        "createdAt": "2020-04-20T16:53:22.322Z",
+        "updatedAt": "2020-04-29T10:47:08.889Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 7
+      },
+      "displayField": "title",
+      "name": "Page",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "country",
+          "name": "country",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "brand",
+          "name": "brand",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "items",
+          "name": "items",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "rich",
+          "name": "rich",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "footerSectionItem",
+        "type": "ContentType",
+        "createdAt": "2020-04-21T13:34:28.783Z",
+        "updatedAt": "2020-04-21T13:35:56.211Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2
+      },
+      "displayField": "title",
+      "name": "Footer Section Item",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "url",
+          "name": "url",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "footerSection",
+        "type": "ContentType",
+        "createdAt": "2020-04-21T13:32:42.332Z",
+        "updatedAt": "2020-04-21T13:33:03.244Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2
+      },
+      "displayField": "title",
+      "name": "Footer Section",
+      "description": "",
+      "fields": [
+        {
+          "id": "items",
+          "name": "items",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "settings",
+        "type": "ContentType",
+        "createdAt": "2020-04-21T13:31:35.301Z",
+        "updatedAt": "2020-04-21T13:31:56.233Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2
+      },
+      "displayField": "country",
+      "name": "Settings",
+      "description": "",
+      "fields": [
+        {
+          "id": "footer",
+          "name": "footer",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "navigation",
+          "name": "navigation",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "country",
+          "name": "country",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "brand",
+          "name": "brand",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "faqSection",
+        "type": "ContentType",
+        "createdAt": "2020-04-20T16:52:06.897Z",
+        "updatedAt": "2020-04-20T16:52:06.897Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "displayField": "title",
+      "name": "Faq Section",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "items",
+          "name": "items",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "faqSectionItem",
+        "type": "ContentType",
+        "createdAt": "2020-04-20T16:51:26.192Z",
+        "updatedAt": "2020-04-20T16:51:26.192Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "displayField": "question",
+      "name": "Faq Section Item",
+      "description": "",
+      "fields": [
+        {
+          "id": "question",
+          "name": "Question",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "answer",
+          "name": "Answer",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "staticPage",
+        "type": "ContentType",
+        "createdAt": "2018-12-07T21:32:37.686Z",
+        "updatedAt": "2019-12-10T10:02:28.003Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3
+      },
+      "displayField": "country",
+      "name": "static page",
+      "description": "The definition of a static Page",
+      "fields": [
+        {
+          "id": "country",
+          "name": "country",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "brand",
+          "name": "brand",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "javascript",
+          "name": "javascript",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "css",
+          "name": "css",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "body",
+          "name": "body",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "rich",
+          "name": "rich",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "recipe",
+        "type": "ContentType",
+        "createdAt": "2018-05-07T13:23:57.698Z",
+        "updatedAt": "2018-05-07T13:36:27.434Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 9
+      },
+      "displayField": "title",
+      "name": "Recipe",
+      "description": "This is the recipe content type",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "photo",
+          "name": "photo",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "calories",
+          "name": "calories",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "description",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "chef",
+          "name": "chef",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "tags",
+          "name": "tags",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "tag"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "chef",
+        "type": "ContentType",
+        "createdAt": "2018-05-07T13:25:04.559Z",
+        "updatedAt": "2018-05-07T13:25:04.559Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "displayField": "name",
+      "name": "chef",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "tag",
+        "type": "ContentType",
+        "createdAt": "2018-05-07T13:24:16.375Z",
+        "updatedAt": "2018-05-07T13:24:16.375Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "displayField": "name",
+      "name": "tag",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ]
+}

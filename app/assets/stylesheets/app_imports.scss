@@ -1,11 +1,8 @@
 // Core variables and mixins
-@import "variables.scss";
-@import "mixins.scss";
+@import "variables";
+@import "mixins";
 // Global CSS
-@import "global.scss";
+@import "global";
 // Components
-@import "icons.scss";
-@import "footer.scss";
-@import "showcase";
-@import "bootstrap-overrides";
-// @import "main";
+@import "footer";
+@import "product";

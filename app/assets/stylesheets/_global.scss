@@ -20,8 +20,8 @@ p {
 }
 
 hr {
-  color: #e6a756;
-  border-top: 0.3rem solid #e6a756 !important;
+  color: $primary;
+  border-top: 0.3rem solid $primary !important;
   width: 50%;
   text-align: center;
 }
@@ -42,7 +42,7 @@ hr {
   display: block;
   font-size: 2rem;
   font-weight: 800;
-  color: #e6a756;
+  color: $primary;
 }
 
 .site-heading .site-heading-lower {
@@ -114,43 +114,6 @@ hr {
   }
 }
 
-.cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
-}
-
-.cta .cta-inner {
-  position: relative;
-  padding: 3rem;
-  margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
-}
-
-.cta .cta-inner:before {
-  border-radius: 0.5rem;
-  content: '';
-  position: absolute;
-  top: -0.5rem;
-  bottom: -0.5rem;
-  left: -0.5rem;
-  right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
-  z-index: -1;
-}
-
-@media (min-width: 992px) {
-  .about-heading .about-heading-img {
-    position: relative;
-    z-index: 0;
-  }
-  .about-heading .about-heading-content {
-    margin-top: -5rem;
-    position: relative;
-    z-index: 1;
-  }
-}
-
 @media (min-width: 992px) {
   .product-item .product-item-title {
     position: relative;
@@ -170,59 +133,37 @@ hr {
   }
 }
 
-.list-hours {
-  font-size: 0.9rem;
-}
-
-.list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
-  padding-bottom: .25rem;
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-
-.list-hours .list-hours-item.today {
-  font-weight: bold;
-  color: #e6a756;
-}
-
-@media (min-width: 992px) {
-  .list-hours {
-    width: 50%;
-    font-size: 1.1rem;
-  }
-}
-
-.address strong {
-  font-size: 1.2rem;
-}
-
-.footer {
-  // background-color: rgba(47, 23, 15, 0.9);
-}
-
 .text-primary {
-  color: #e6a756 !important;
+  color: $primary !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: $primary !important;
 }
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
 }
 
-.btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
-}
+// .btn {
+//   box-shadow: 0px 3px 3px 0px fade-out($gray, 0.9);
+// }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primary, 10%);
+    border-color: darken($primary, 10%);
+  }
 }
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto !important;
 }

@@ -1,17 +1,19 @@
 <% @recipes.each do |recipe| %>
   <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
+    <div class="container">
+      <div class="intro">
+        <%= link_to recipe_path(id: recipe.id) do %>
           <%= image_tag recipe.photo.image_url, class: "intro-img img-fluid mb-3 mb-lg-0 rounded" %>
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-lower"><%= recipe.title %></span>
-            </h2>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="<%= recipe_path(id: recipe.id) %>">See recipe!</a>
-            </div>
+        <% end %>
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-lower"><%= recipe.title %></span>
+          </h2>
+          <div class="intro-button mx-auto">
+            <a class="btn btn-primary btn-xl" href="<%= recipe_path(id: recipe.id) %>">See recipe!</a>
           </div>
         </div>
       </div>
+    </div>
   </section>
 <% end %>
